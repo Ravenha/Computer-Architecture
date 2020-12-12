@@ -1,0 +1,12 @@
+10000100 # SAVE
+00001000 # number to save - address to jump to (8)
+00000000 # register to store it in (R0)
+01001001 # CALL
+00000000 # reg number, holds address to jump to (8)
+01000011 # PRINT_NUM
+01100011 # 99
+00000010 # HALT
+
+00000001 # PRINT_ANIKA -- address 8
+00000001 # PRINT_ANIKA
+00001010 # RET
